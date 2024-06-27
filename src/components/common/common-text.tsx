@@ -17,7 +17,7 @@ const Commontext: React.FC<TextProps> = ({ route }) => {
       ) : (
         <div className="  py-7  border-y-gray-300 border-y my-5 ">
           <p className="mt-2 mb-2 text-gray-500 text-md">
-            Don't recognize this activity? Please{" "}
+            Don't recognize this activity? Please
             <a href="#" className="text-blue-500 ">
               reset your password
             </a>
