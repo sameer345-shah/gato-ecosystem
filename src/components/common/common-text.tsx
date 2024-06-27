@@ -11,7 +11,7 @@ const Commontext: React.FC<TextProps> = ({ route }) => {
             If this activity is not done by you, please contact us immediately
             <a href="#" className="text-blue-500 ">
               support@gatochain.com
-            </a>{" "}
+            </a>
           </p>
         </div>
       ) : (
@@ -20,11 +20,11 @@ const Commontext: React.FC<TextProps> = ({ route }) => {
             Don't recognize this activity? Please{" "}
             <a href="#" className="text-blue-500 ">
               reset your password
-            </a>{" "}
-            and contact{" "}
+            </a>
+            and contact
             <a href="#" className="text-blue-500 ">
               customer support
-            </a>{" "}
+            </a>
             immediately.
           </p>
           <p className=" mt-4 text-md text-gray-500">
