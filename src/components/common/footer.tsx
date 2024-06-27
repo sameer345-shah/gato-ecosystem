@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const footer = () => {
+const Footer = () => {
   return (
     <footer
       className="bg-gray-800 w-full text-white  bg-cover  bg-center py-4"
@@ -28,4 +28,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

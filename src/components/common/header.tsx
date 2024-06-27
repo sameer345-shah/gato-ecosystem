@@ -4,7 +4,7 @@ import React from "react";
 interface HeaderProps {
   headerText: string;
 }
-const header: React.FC<HeaderProps> = ({ headerText }) => {
+const Header: React.FC<HeaderProps> = ({ headerText }) => {
   return (
     <header
       className="bg-cover h-[200px] w-full flex flex-col items-center justify-center  bg-center text-white py-4"
@@ -24,4 +24,4 @@ const header: React.FC<HeaderProps> = ({ headerText }) => {
   );
 };
 
-export default header;
+export default Header;

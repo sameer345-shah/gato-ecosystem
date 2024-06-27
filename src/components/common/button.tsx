@@ -5,7 +5,7 @@ interface ButtonProps {
   buttonRoute: string;
   buttonLabel: string;
 }
-const button: React.FC<ButtonProps> = ({ buttonRoute, buttonLabel, route }) => {
+const Button: React.FC<ButtonProps> = ({ buttonRoute, buttonLabel, route }) => {
   const router = useRouter();
 
   const style =
@@ -19,4 +19,4 @@ const button: React.FC<ButtonProps> = ({ buttonRoute, buttonLabel, route }) => {
   );
 };
 
-export default button;
+export default Button;
